@@ -1,0 +1,191 @@
+.meet_text{
+    padding-left: 400px;
+    outline: none;
+    border: 0;
+    position: absolute;
+	top: 200px;
+	left: 0;
+	width: 100%;
+    color: white;
+}
+.meet_img {
+    position: relative;
+    width: 100%;
+}
+
+.meet_butt{
+    outline: none;
+    border: 0;
+    background-color: rgb(106, 223, 155);
+    border-radius: 10px;
+    font-size: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.meet_text_1{
+    font-size: 50px;
+}
+.meet_text_2{
+    font-size: 35px;
+}
+.meet_text_3{
+    padding-top: 10px;
+    font-size: 25px;
+}
+.meet_butt{
+    margin-top: 40px;
+
+}
+.meet_text{
+    padding-top: 234px;
+}
+.meet{
+    padding-bottom: 100px;
+}
+.about_us{
+    padding-left: 600px;
+    display: flex;
+}
+.about_us_1{
+    font-size: 70px;
+}
+.about_us_2{
+    font-size: 30px;
+}
+.about_us_text{
+    margin-right: 147px;
+}
+.about_as_butt{
+    outline: none;
+    border: 0;
+    background-color: rgb(106, 223, 155);
+    border-radius: 10px;
+    font-size: 40px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 55px;
+}
+.fah{
+    padding-left: 600px;
+display: flex;
+}
+.fah_1{
+    font-size: 50px;
+    margin: 30px 0 30px 0;
+}
+.fah_2{
+    font-size: 30px;
+    text-decoration: none;
+    color:black;
+}
+.fah_text{
+    margin-left: 59px;
+}
+.music_instrum{
+    padding-left: 600px;
+    padding-right: 550px;
+    display: flex;
+}
+.music_instrum_text{
+
+    padding-right: 100px;
+
+}
+.music_instrum_3{
+    float: right;
+}
+.music_instrum_a{
+
+    width: 100%;
+}
+/*Галерея*/
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  /*Галерея*/
